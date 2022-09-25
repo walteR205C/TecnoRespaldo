@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+    }
+    header{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between; /* Distribuir items uniformement El
+    primer item al inicio, el último al final */
+    background-color: aliceblue ;
+    align-items: center;
+    padding: 10px;
+    }
+    #logo-empresa{
+    display: flex;
+    border: solid 1px;
+    height: 120px;
+    align-items: center;
+    color: indianred;
+    text-decoration: none;
+    }
+    
+    #logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    }
+    
+    #empresa{
+    font-size: 40px;/*tamaña de letra*/
+    }
+    
+    /*aplicamos estilios a la barra de navagaxionb*/
+    
+    nav .link-nav{
+    padding-right: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: darkkhaki;
+    font-weight: bold;/*aplicar negrita*/
+    }
+    nav .link-nav:hover{
+    color: teal;
+    }
+
+    #contenedor{
+        width: 80%;
+        background-color: cadetblue;
+        margin: 20px auto;
+        padding: 20px;
+
+    }
+
+    #titulo{
+        text-align: center;
+        font-size: 60px;
+        margin-top: 50px;
+    }
+
+    .img1{
+        width: 90px;
+        padding: 10px;
+    }
+
+    #primersection{
+        
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    .article1{
+        text-align: center;
+    }
+
+    .article1 p{
+        text-align: justify;
+    }
+
+    #segundasection{
+        
+        margin-top: 80px;
+        padding: 40px;
+        
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    #video{
+        width: 300px;
+        height: 200px;
+    }
+
+    .article2{
+        text-align: center;
+    }
+
+    .article2 p{
+        text-align: justify;
+        padding: 20px;
+    }
+
+    #tercerasection{
+        
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 50px;
+    }
+
+    .img2{
+        width: 110px;
+    }
+
+    .article3{
+        text-align: center;
+        
+    }
+
+    .article3 p{
+        text-align: justify;
+    }
+
+.imgfoter{
+    width: 40px;
+
+}
+
+footer{
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 100px;
+
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+   
